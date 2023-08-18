@@ -1,0 +1,105 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "label": "Build Windows x64 (Debug)",
+      "type": "lime",
+      "targetConfiguration": "Build Windows x64 (Debug)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build Windows x64 (Release)",
+      "type": "lime",
+      "targetConfiguration": "Build Windows x64 (Release)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build Windows x32 (Release)",
+      "type": "lime",
+      "targetConfiguration": "Build Windows x32 (Release)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build Windows x32 (Debug)",
+      "type": "lime",
+      "targetConfiguration": "Build Windows x32 (Debug)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build HTML5 (Debug)",
+      "type": "lime",
+      "targetConfiguration": "Build HTML5 (Debug)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build HTML5 (Release)",
+      "type": "lime",
+      "targetConfiguration": "Build HTML5 (Release)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build MacOS (Debug)",
+      "type": "lime",
+      "targetConfiguration": "Build MacOS (Debug)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build MacOS (Release)",
+      "type": "lime",
+      "targetConfiguration": "Build MacOS (Release)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build Linux (Debug)",
+      "type": "lime",
+      "targetConfiguration": "Build Linux (Debug)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build Linux (Release)",
+      "type": "lime",
+      "targetConfiguration": "Build Linux (Release)",
+      "command": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+	]
+}

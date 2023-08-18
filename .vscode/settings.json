@@ -1,0 +1,84 @@
+{
+  "[haxe]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "lime.targetConfigurations": [
+    {
+      "label": "Build Windows x64 (Debug)",
+      "target": "windows",
+      "args": [
+        "-debug"
+      ]
+    },
+    {
+      "label": "Build Windows x64 (Release)",
+      "target": "windows",
+      "args": [
+        "-release -D HXCPP_M64"
+      ]
+    },
+    {
+      "label": "Build Windows x32 (Debug)",
+      "target": "windows",
+      "args": [
+        "-32 -debug -D 32bits -D HXCPP_M32"
+      ]
+    },
+    {
+      "label": "Build Windows x32 (Release)",
+      "target": "windows",
+      "args": [
+        "-32 -release -D 32bits -D HXCPP_M32"
+      ]
+    },
+    {
+      "label": "Build Linux (Debug)",
+      "target": "linux",
+      "args": [
+        "-debug"
+      ]
+    },
+    {
+      "label": "Build Linux (Release)",
+      "target": "linux",
+      "args": [
+        "-release"
+      ]
+    },
+    {
+      "label": "Build MacOS (Debug)",
+      "target": "macos",
+      "args": [
+        "-debug"
+      ]
+    },
+    {
+      "label": "Build MacOS (Release)",
+      "target": "macos",
+      "args": [
+        "-release"
+      ]
+    },
+    {
+      "label": "Build HTML5 (Debug)",
+      "target": "html5",
+      "args": [
+        "-debug"
+      ]
+    },
+    {
+      "label": "Build HTML5 (Release)",
+      "target": "html5",
+      "args": [
+        "-release"
+      ]
+    }
+  ],
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "styleName": "pixel",
+    "replaceNoteTextures": true,
+    "replaceSplashTextures": true,
+    "replaceHUDAssets": true,
+    "replaceSounds": true,
+    "replaceMusic": true,
+    "scaleFactor": 6
+}

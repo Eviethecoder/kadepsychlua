@@ -1,0 +1,24 @@
+Engine Devs:category: :1:
+Bolo:twitter.com/BoloVEVO:Main Programmer of this KE fork:0:#A5004D
+TOP Contributors:category: :1
+Awoo2u:twitter.com/Awoofle:Tween Manager and Optimization Tweaks:0
+MAJigsaw77:github.com/MAJigsaw77:Code optimization and fixes:0
+Glowsoony:github.com/glowsoony:Future Hscript Support:0
+Shotouts:category: :1
+KadeDeveloper: :Creator of OG Kade Engine:0:#64A250
+ShadowMario: :Psych Engine Features:0:#444444
+RiverOaken: :Pyshc Engine Art Assets:#B42F71
+Shubs: :Forever Engine Features:0:#5E99DF
+EliteMasterEric: :Runtime Shaders:0:#FFBD40
+SqirraRNG: :Crash Handler:0:#E1843A
+PolybiusProxy: :MP4 Videos support (hxCodec):0:#DCD294
+Foxeru: :Circle Noteskin:0
+Orbyy: :Pixel Circle Noteskin:0
+Smokey: :Sprite Atlas Support:0:#483D92
+BombasticTom: :Suggested adding my project to funkin engine list:0
+BeastlyGhost: :Forever Engine Underscore:0
+Funkin Crew:category: :1
+ninjamuffin99: :Programmer of Friday Night Funkin':0
+PhantomArcade: :Animator of FNF:0
+evilsk8r: :Artist of FNF:0
+kawaisprite: :Composer of FNF:0

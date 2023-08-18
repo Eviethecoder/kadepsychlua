@@ -1,0 +1,19 @@
+{
+    "camZoom": 1.05,
+    "charPositions": {
+        "spooky": [
+            100,
+            300
+        ],
+        "monster": [
+            100,
+            200
+        ]
+    },
+    "spritesPositions": {
+        "halloweenBG": [
+            -200,
+            -80
+        ]
+    }
+}

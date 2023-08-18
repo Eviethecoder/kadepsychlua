@@ -1,0 +1,75 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Windows x64 (Debug)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Windows x64 (Debug)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/debug/windows/bin/Kade Engine.exe"
+    },
+    {
+      "name": "Windows x64 (Release)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Windows x64 (Release)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/release/windows/bin/Kade Engine.exe"
+    },
+    {
+      "name": "Windows x32 (Debug)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Windows x32 (Debug)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/debug-32bits/windows/bin/Kade Engine.exe"
+    },
+    {
+      "name": "Windows x32 (Release)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Windows x32 (Release)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/release-32bits/windows/bin/Kade Engine.exe"
+    },
+    {
+      "name": "HTML5 (Debug)",
+      "request": "launch",
+      "preLaunchTask": "Build HTML5 (Debug)",
+      "type": "node-terminal",
+      "command": "npx live-server \"${workspaceFolder}/export/debug/html5/bin/\""
+    },
+    {
+      "name": "HTML5 (Release)",
+      "request": "launch",
+      "preLaunchTask": "Build HTML5 (Release)",
+      "type": "node-terminal",
+      "command": "npx live-server \"${workspaceFolder}/export/release/html5/bin/\""
+    },
+    {
+      "name": "MacOS (Debug)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build MacOS (Debug)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/debug/macos/bin/Kade Engine.app"
+    },
+    {
+      "name": "MacOS (Release)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build MacOS (Release)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/release/macos/bin/Kade Engine.app"
+    },
+    {
+      "name": "Linux (Debug)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Linux (Debug)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/debug/linux/bin/Kade Engine"
+    },
+    {
+      "name": "Linux (Release)",
+      "type": "hxcpp",
+      "preLaunchTask": "Build Linux (Release)",
+      "request": "launch",
+      "program": "${workspaceFolder}/export/debug/linux/bin/Kade Engine"
+    }
+  ],
+}
